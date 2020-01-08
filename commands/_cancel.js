@@ -1,0 +1,16 @@
+/*CMD
+  command: /cancel
+  help: 
+  need_reply: 
+  auto_retry_time: 
+  folder: 
+  answer: 
+  keyboard: 
+  aliases: 
+CMD*/
+
+var buttons = [
+    {title: "C начало!", command: "/start"}
+];
+
+Bot.sendInlineKeyboard(buttons, "Ваш заказ успешно отменен!");
