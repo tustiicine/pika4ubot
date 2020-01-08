@@ -18,4 +18,4 @@ var buttons = [
     {title: "Отменить заказ", command: "/cancel" }
 ];
 
-Bot.sendInlineKeyboard(buttons, "Ваш заказ № 572: \n Город: CHISINAU. \n товар: Budha Haze, 2г. \n Цена: 27 USD \n Выберите удобный метод платы:");
+Bot.sendInlineKeyboard(buttons, "Ваш заказ № 572: \n Город: CHISINAU. \n товар: Bubble Haze, 2gr. \n Цена: 27 USD \n Выберите удобный метод платы:");
